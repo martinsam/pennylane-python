@@ -23,3 +23,13 @@ python -m pip install .
 
 ## Usage
 The library needs to be configured with your account's secret key which is available in your Pennylane Dashboard.
+
+```python
+import os
+
+from pennylane import PennylaneClient
+
+client = PennylaneClient(
+    api_key=os.environ["PENNYLANE_API_KEY"]
+)
+```
