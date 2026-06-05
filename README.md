@@ -1,5 +1,5 @@
 # Pennylane Python Library
-> [!TIP]
+> [!WARNING]
 > This project is currently under active development. Your feedback is greatly appreciated and will help the future of the project.
 
 
@@ -22,4 +22,4 @@ python -m pip install .
 ```
 
 ## Usage
-The library needs to be configured with your account's secret key which is available in your [Pennylane Dashboard][api-keys].
+The library needs to be configured with your account's secret key which is available in your Pennylane Dashboard.
